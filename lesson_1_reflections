@@ -1,0 +1,23 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    It eliminated all aspects of the old and new code that were the same, highlighting just the differences. This made it much easier to pinpoint where the potential bugs were.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Because if you make changes to your code and break something, you can go back to previous version before the code was broken and see where the changes were made and fix the issue once again.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+    The pros are that you can make more logical saved files that will be easier to reference later. The con is that you may become absent minded and make too many changes before you remember to commit, making it harder to discover the changes and possible bugs between the previously saved file and the newest version. If you use something like google docs that saves automatically, you will always have something to reference but it may not make sense at the point in which i was saved and you could have way more files than necessary.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    No clue honestly. But maybe because git is meant to be used with more complex files while google docs are meant to be more straight forward.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log allows you to see a list of all of the commits that have been saved and get diffs lets you compare the changes between two of commits that have been saved in the log.
+
+How might using version control make you more confident to make changes that could break something?
+
+    It would make me more confident because I know I have  fairly easy way to go back review my older code before it was broken anf figure out what broke it.
