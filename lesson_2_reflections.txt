@@ -9,3 +9,24 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 
 	By reviewing current changes in the staging area and what is being held there before actually committing them. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches can help you create and experiment with different versions of your game without affecting the main body of code and possibly introducing new unwanted bugs. 
+
+How do the diagrams help you visualize the branch structure?
+
+	Because the diagrams put the branch concept into visual form and it is easier to visualize something when there is a visual. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It combines the two branches into one. You represent it that way becuause it makes it easier to understand what git is doing when you merge. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros its less work on the developer, cons more likely that git will make the wrong decision and merge incorrectly. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Because the automatic update might miss something or get confused as to which repository is must up to date. It's best to do it yourself as opposed to having the computer trying to interpret what you are trying to accomplish. 
+	
