@@ -1,1 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
+
+	It create a new git repository. You need to do it in order to create a repository of your work in git. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	staging area isn't final, you can still make changes before making it a permanent commit. The vaulue in this is that it allows you room to still play around before fully committing your changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By reviewing current changes in the staging area and what is being held there before actually committing them. 
